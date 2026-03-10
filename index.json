@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-10T01:40:17.947Z",
+  "articles": [
+    {
+      "slug": "test.article",
+      "date": null,
+      "languages": [
+        "es"
+      ],
+      "title": {
+        "es": "test.article"
+      },
+      "summary": {
+        "es": "Artículo de Prueba Este documento es un artículo de prueba escrito en Markdown por una inteligencia artificial. Su único propósito es servir como contenido de r…"
+      },
+      "coverImage": null,
+      "tags": [],
+      "published": true
+    },
+    {
+      "slug": "test-article",
+      "date": null,
+      "languages": [
+        "en"
+      ],
+      "title": {
+        "en": "test-article"
+      },
+      "summary": {
+        "en": "Test Article This document is a test article written in Markdown by an artificial intelligence. Its sole purpose is to serve as placeholder content while this p…"
+      },
+      "coverImage": null,
+      "tags": [],
+      "published": true
+    }
+  ]
+}

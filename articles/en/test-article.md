@@ -1,3 +1,7 @@
+---
+date: 2026-03-10
+---
+
 # Test Article
 
 This document is a **test article written in Markdown by an artificial intelligence**.  

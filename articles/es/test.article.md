@@ -1,3 +1,7 @@
+---
+date: 2026-03-10
+---
+
 # Artículo de Prueba
 
 Este documento es un **artículo de prueba escrito en Markdown por una inteligencia artificial**.  

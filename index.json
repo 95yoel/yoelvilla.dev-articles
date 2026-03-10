@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-10T23:35:54.219Z",
+  "generatedAt": "2026-03-10T23:50:19.469Z",
   "articles": [
     {
       "slug": "test-article",
@@ -20,7 +20,7 @@
         "es": "Este documento es un artículo de prueba escrito en Markdown por una inteligencia artificial. Su único propósito es servir como contenido de relleno mientras se...",
         "en": "This document is a test article written in Markdown by an artificial intelligence. Its sole purpose is to serve as placeholder content while this part of the ap..."
       },
-      "date": "2026-03-10T01:34:12.002Z",
+      "date": "2026-03-10T00:00:00.000Z",
       "tags": [],
       "coverImage": null,
       "published": true

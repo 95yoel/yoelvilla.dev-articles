@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-10T23:52:57.221Z",
+  "generatedAt": "2026-03-11T01:27:45.009Z",
   "articles": [
     {
       "slug": "test-article",
@@ -17,8 +17,8 @@
         "en": "Test Article"
       },
       "summary": {
-        "es": "Este documento es un artículo de prueba escrito en Markdown por una inteligencia artificial. Su único propósito es servir como contenido de relleno mientras se...",
-        "en": "This document is a test article written in Markdown by an artificial intelligence. Its sole purpose is to serve as placeholder content while this part of the ap..."
+        "es": "Esta es una descripción generada desde el summary.",
+        "en": "This is a description generated from the summary."
       },
       "date": "2026-03-10T00:00:00.000Z",
       "tags": [],

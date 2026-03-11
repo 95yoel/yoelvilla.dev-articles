@@ -216,7 +216,7 @@ for (const lang of LANGS) {
 
     const title = getTitleFromContent(content, canonicalSlug);
     item.title[lang] = title;
-    item.summary[lang] = meta.description || makeSummary(content, title, canonicalSlug);
+    item.summary[lang] = meta.summary || meta.description || makeSummary(content, title, canonicalSlug);
 
     const resolvedDate = parseDateValue(meta.date) || getFileDate(fullPath);
     if (resolvedDate && (!item.date || resolvedDate > item.date)) {

@@ -30,7 +30,8 @@ El script `scripts/generate-index.mjs`:
 - Calcula un `slug` canónico compartido entre idiomas.
 - Conserva el nombre real del archivo en `sourceSlug`.
 - Obtiene el título desde la primera línea útil del contenido Markdown.
-- Usa `description` como resumen si existe; si no, genera uno automáticamente.
+- Prioriza un `summary` manual en el frontmatter para el resumen del artículo.
+- Puede generar un resumen automático desde el contenido como fallback.
 - Usa `date` del frontmatter como fecha editorial preferente.
 - Genera `index.json` ordenado por fecha descendente.
 
@@ -42,7 +43,7 @@ Cada artículo puede incluir un bloque al inicio como este:
 ---
 date: 2026-03-10
 slug: mi-articulo
-description: Resumen corto del artículo
+summary: Resumen corto del artículo
 tags: [node, markdown, blog]
 coverImage: /images/posts/mi-articulo.jpg
 published: true
@@ -53,10 +54,18 @@ Campos relevantes:
 
 - `date`: fecha editorial del artículo. Es la opción recomendada para evitar depender de fechas del runner de CI/CD.
 - `slug`: base opcional para el slug canónico compartido entre idiomas.
-- `description`: resumen manual.
+- `summary`: resumen manual recomendado para el `index.json`.
 - `tags`: lista de etiquetas.
 - `coverImage`: imagen de portada.
 - `published`: permite ocultar artículos si se establece en `false`.
+
+## Resumen del artículo
+
+Se recomienda definir `summary` manualmente en el frontmatter de cada artículo.
+
+Esto simplifica la redacción de la descripción mostrada en el blog y evita depender de texto extraído automáticamente desde el cuerpo del Markdown.
+
+La idea es que `summary` sea la fuente principal del resumen en `index.json`, dejando la generación automática como fallback cuando falte ese campo.
 
 ## Fecha de publicación
 

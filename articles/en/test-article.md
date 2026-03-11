@@ -1,5 +1,6 @@
 ---
 date: 2026-03-10
+summary: This is a description generated from the summary.
 ---
 
 # Test Article

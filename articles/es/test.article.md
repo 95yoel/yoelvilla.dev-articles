@@ -1,5 +1,6 @@
 ---
 date: 2026-03-10
+summary: Esta es una descripción generada desde el summary.
 ---
 
 # Artículo de Prueba

@@ -4,9 +4,9 @@ slug: asistente-calculo-motores-analiticos
 summary: Universities and mechanical workshops introduce a domestic calculation assistant built on compact analytic engines and punched cards.
 tags: [technology, analytic-engines, automatic-calculation, innovation, universities]
 domain: [technology]
-technology: [analytic-engines]
-topic: [automatic-calculation]
-context: [innovation, universities]
+technology: [analytic-engines, cooperative-networks]
+topic: [automatic-calculation, scientific-navigation]
+context: [innovation, universities, architecture]
 ---
 
 # Universities unveil the first calculation assistant based on domestic analytic engines

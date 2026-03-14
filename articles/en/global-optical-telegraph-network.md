@@ -4,9 +4,9 @@ slug: red-mundial-telegrafos-opticos
 summary: The international optical telegraph network has passed 50,000 towers and is accelerating message exchange across continents.
 tags: [communication, optical-telegraph, infrastructure, technology, global-network]
 domain: [infrastructure, technology]
-technology: [optical-telegraph]
-topic: [communication-networks]
-context: [communication, innovation]
+technology: [optical-telegraph, cooperative-networks]
+topic: [communication-networks, scientific-navigation]
+context: [communication, innovation, universities]
 ---
 
 # The global optical telegraph network reaches 50,000 towers and links continents in minutes

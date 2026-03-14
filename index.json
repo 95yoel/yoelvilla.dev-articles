@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-03-14T13:27:58.650Z",
+  "generatedAt": "2026-03-14T13:47:56.394Z",
   "articles": [
     {
       "slug": "red-mundial-telegrafos-opticos",
@@ -49,14 +49,17 @@
             "tecnologia"
           ],
           "technology": [
-            "telegrafo-optico"
+            "telegrafo-optico",
+            "redes-cooperativas"
           ],
           "topic": [
-            "redes-comunicacion"
+            "redes-comunicacion",
+            "navegacion-cientifica"
           ],
           "context": [
             "comunicacion",
-            "innovacion"
+            "innovacion",
+            "universidades"
           ]
         },
         "en": {
@@ -65,14 +68,17 @@
             "technology"
           ],
           "technology": [
-            "optical-telegraph"
+            "optical-telegraph",
+            "cooperative-networks"
           ],
           "topic": [
-            "communication-networks"
+            "communication-networks",
+            "scientific-navigation"
           ],
           "context": [
             "communication",
-            "innovation"
+            "innovation",
+            "universities"
           ]
         }
       },
@@ -82,14 +88,17 @@
           "technology"
         ],
         "technology": [
-          "optical-telegraph"
+          "optical-telegraph",
+          "cooperative-networks"
         ],
         "topic": [
-          "communication-networks"
+          "communication-networks",
+          "scientific-navigation"
         ],
         "context": [
           "communication",
-          "innovation"
+          "innovation",
+          "universities"
         ]
       },
       "coverImage": null,
@@ -141,14 +150,17 @@
             "tecnologia"
           ],
           "technology": [
-            "motores-analiticos"
+            "motores-analiticos",
+            "redes-cooperativas"
           ],
           "topic": [
-            "calculo-automatico"
+            "calculo-automatico",
+            "navegacion-cientifica"
           ],
           "context": [
             "innovacion",
-            "universidades"
+            "universidades",
+            "arquitectura"
           ]
         },
         "en": {
@@ -156,14 +168,17 @@
             "technology"
           ],
           "technology": [
-            "analytic-engines"
+            "analytic-engines",
+            "cooperative-networks"
           ],
           "topic": [
-            "automatic-calculation"
+            "automatic-calculation",
+            "scientific-navigation"
           ],
           "context": [
             "innovation",
-            "universities"
+            "universities",
+            "architecture"
           ]
         }
       },
@@ -172,14 +187,17 @@
           "technology"
         ],
         "technology": [
-          "analytic-engines"
+          "analytic-engines",
+          "cooperative-networks"
         ],
         "topic": [
-          "automatic-calculation"
+          "automatic-calculation",
+          "scientific-navigation"
         ],
         "context": [
           "innovation",
-          "universities"
+          "universities",
+          "architecture"
         ]
       },
       "coverImage": null,
@@ -232,14 +250,17 @@
             "tecnologia"
           ],
           "technology": [
-            "telescopios"
+            "telescopios",
+            "redes-cooperativas"
           ],
           "topic": [
-            "cartografia-planetaria"
+            "cartografia-planetaria",
+            "navegacion-cientifica"
           ],
           "context": [
             "universidades",
-            "innovacion"
+            "innovacion",
+            "arquitectura"
           ]
         },
         "en": {
@@ -248,14 +269,17 @@
             "technology"
           ],
           "technology": [
-            "telescopes"
+            "telescopes",
+            "cooperative-networks"
           ],
           "topic": [
-            "planetary-cartography"
+            "planetary-cartography",
+            "scientific-navigation"
           ],
           "context": [
             "universities",
-            "innovation"
+            "innovation",
+            "architecture"
           ]
         }
       },
@@ -265,14 +289,17 @@
           "technology"
         ],
         "technology": [
-          "telescopes"
+          "telescopes",
+          "cooperative-networks"
         ],
         "topic": [
-          "planetary-cartography"
+          "planetary-cartography",
+          "scientific-navigation"
         ],
         "context": [
           "universities",
-          "innovation"
+          "innovation",
+          "architecture"
         ]
       },
       "coverImage": null,
@@ -325,17 +352,22 @@
       {
         "source": "asistente-calculo-motores-analiticos",
         "target": "observatorios-marte-red-cooperativa",
-        "score": 3.2877,
-        "label": "universities",
+        "score": 12.2877,
+        "label": "scientific-navigation",
         "shared": {
           "domain": [
             "technology"
           ],
-          "technology": [],
-          "topic": [],
+          "technology": [
+            "cooperative-networks"
+          ],
+          "topic": [
+            "scientific-navigation"
+          ],
           "context": [
             "innovation",
-            "universities"
+            "universities",
+            "architecture"
           ]
         },
         "dominantType": "context"
@@ -343,69 +375,89 @@
       {
         "source": "red-mundial-telegrafos-opticos",
         "target": "asistente-calculo-motores-analiticos",
-        "score": 2,
-        "label": "innovation",
+        "score": 11,
+        "label": "scientific-navigation",
         "shared": {
           "domain": [
             "technology"
           ],
-          "technology": [],
-          "topic": [],
+          "technology": [
+            "cooperative-networks"
+          ],
+          "topic": [
+            "scientific-navigation"
+          ],
           "context": [
-            "innovation"
+            "innovation",
+            "universities"
           ]
         },
-        "dominantType": "context"
+        "dominantType": "topic"
       },
       {
         "source": "red-mundial-telegrafos-opticos",
         "target": "observatorios-marte-red-cooperativa",
-        "score": 2,
-        "label": "innovation",
+        "score": 11,
+        "label": "scientific-navigation",
         "shared": {
           "domain": [
             "technology"
           ],
-          "technology": [],
-          "topic": [],
+          "technology": [
+            "cooperative-networks"
+          ],
+          "topic": [
+            "scientific-navigation"
+          ],
           "context": [
-            "innovation"
+            "innovation",
+            "universities"
           ]
         },
-        "dominantType": "context"
+        "dominantType": "topic"
       }
     ],
     "relatedBySlug": {
       "red-mundial-telegrafos-opticos": [
         {
           "target": "asistente-calculo-motores-analiticos",
-          "score": 2,
-          "label": "innovation",
-          "dominantType": "context",
+          "score": 11,
+          "label": "scientific-navigation",
+          "dominantType": "topic",
           "shared": {
             "domain": [
               "technology"
             ],
-            "technology": [],
-            "topic": [],
+            "technology": [
+              "cooperative-networks"
+            ],
+            "topic": [
+              "scientific-navigation"
+            ],
             "context": [
-              "innovation"
+              "innovation",
+              "universities"
             ]
           }
         },
         {
           "target": "observatorios-marte-red-cooperativa",
-          "score": 2,
-          "label": "innovation",
-          "dominantType": "context",
+          "score": 11,
+          "label": "scientific-navigation",
+          "dominantType": "topic",
           "shared": {
             "domain": [
               "technology"
             ],
-            "technology": [],
-            "topic": [],
+            "technology": [
+              "cooperative-networks"
+            ],
+            "topic": [
+              "scientific-navigation"
+            ],
             "context": [
-              "innovation"
+              "innovation",
+              "universities"
             ]
           }
         }
@@ -413,34 +465,44 @@
       "asistente-calculo-motores-analiticos": [
         {
           "target": "observatorios-marte-red-cooperativa",
-          "score": 3.2877,
-          "label": "universities",
+          "score": 12.2877,
+          "label": "scientific-navigation",
           "dominantType": "context",
           "shared": {
             "domain": [
               "technology"
             ],
-            "technology": [],
-            "topic": [],
+            "technology": [
+              "cooperative-networks"
+            ],
+            "topic": [
+              "scientific-navigation"
+            ],
             "context": [
               "innovation",
-              "universities"
+              "universities",
+              "architecture"
             ]
           }
         },
         {
           "target": "red-mundial-telegrafos-opticos",
-          "score": 2,
-          "label": "innovation",
-          "dominantType": "context",
+          "score": 11,
+          "label": "scientific-navigation",
+          "dominantType": "topic",
           "shared": {
             "domain": [
               "technology"
             ],
-            "technology": [],
-            "topic": [],
+            "technology": [
+              "cooperative-networks"
+            ],
+            "topic": [
+              "scientific-navigation"
+            ],
             "context": [
-              "innovation"
+              "innovation",
+              "universities"
             ]
           }
         }
@@ -448,34 +510,44 @@
       "observatorios-marte-red-cooperativa": [
         {
           "target": "asistente-calculo-motores-analiticos",
-          "score": 3.2877,
-          "label": "universities",
+          "score": 12.2877,
+          "label": "scientific-navigation",
           "dominantType": "context",
           "shared": {
             "domain": [
               "technology"
             ],
-            "technology": [],
-            "topic": [],
+            "technology": [
+              "cooperative-networks"
+            ],
+            "topic": [
+              "scientific-navigation"
+            ],
             "context": [
               "innovation",
-              "universities"
+              "universities",
+              "architecture"
             ]
           }
         },
         {
           "target": "red-mundial-telegrafos-opticos",
-          "score": 2,
-          "label": "innovation",
-          "dominantType": "context",
+          "score": 11,
+          "label": "scientific-navigation",
+          "dominantType": "topic",
           "shared": {
             "domain": [
               "technology"
             ],
-            "technology": [],
-            "topic": [],
+            "technology": [
+              "cooperative-networks"
+            ],
+            "topic": [
+              "scientific-navigation"
+            ],
             "context": [
-              "innovation"
+              "innovation",
+              "universities"
             ]
           }
         }

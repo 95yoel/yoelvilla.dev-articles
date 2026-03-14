@@ -6,7 +6,7 @@ tags: [tecnologia, motores-analiticos, calculo-automatico, innovacion, universid
 domain: [tecnologia]
 technology: [motores-analiticos, redes-cooperativas]
 topic: [calculo-automatico, navegacion-cientifica]
-context: [innovacion, universidades, arquitectura]
+context: [innovacion, universidades]
 ---
 
 # Universidades presentan el primer asistente de calculo basado en motores analiticos domesticos

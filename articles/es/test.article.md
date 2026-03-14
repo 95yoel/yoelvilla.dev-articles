@@ -4,7 +4,7 @@ slug: observatorios-marte-red-cooperativa
 summary: Una red de observatorios civiles y academicos publica el mapa atmosferico mas preciso de Marte y abre una nueva etapa para la navegacion y la ciencia planetaria.
 tags: [astronomia, marte, observatorios, cartografia, ciencia]
 domain: [ciencia, tecnologia]
-technology: [telescopios, redes-cooperativas]
+technology: [telescopios]
 topic: [cartografia-planetaria, navegacion-cientifica]
 context: [universidades, innovacion, arquitectura]
 ---

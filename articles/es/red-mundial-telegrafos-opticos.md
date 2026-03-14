@@ -5,8 +5,8 @@ summary: La red internacional de telegrafos opticos supera las 50.000 torres y a
 tags: [comunicacion, telegrafo-optico, infraestructura, tecnologia, red-global]
 domain: [infraestructura, tecnologia]
 technology: [telegrafo-optico, redes-cooperativas]
-topic: [redes-comunicacion, navegacion-cientifica]
-context: [comunicacion, innovacion, universidades]
+topic: [redes-comunicacion]
+context: [comunicacion, innovacion]
 ---
 
 # La red mundial de telegrafos opticos alcanza las 50.000 torres y conecta continentes en minutos

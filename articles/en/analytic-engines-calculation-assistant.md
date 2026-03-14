@@ -6,7 +6,7 @@ tags: [technology, analytic-engines, automatic-calculation, innovation, universi
 domain: [technology]
 technology: [analytic-engines, cooperative-networks]
 topic: [automatic-calculation, scientific-navigation]
-context: [innovation, universities, architecture]
+context: [innovation, universities]
 ---
 
 # Universities unveil the first calculation assistant based on domestic analytic engines

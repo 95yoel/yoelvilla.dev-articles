@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-03-14T14:35:14.225Z",
+  "generatedAt": "2026-03-14T15:04:56.215Z",
   "articles": [
     {
       "slug": "red-mundial-telegrafos-opticos",
@@ -56,8 +56,7 @@
             "redes-comunicacion"
           ],
           "context": [
-            "comunicacion",
-            "innovacion"
+            "comunicacion"
           ]
         },
         "en": {
@@ -73,8 +72,7 @@
             "communication-networks"
           ],
           "context": [
-            "communication",
-            "innovation"
+            "communication"
           ]
         }
       },
@@ -91,8 +89,7 @@
           "communication-networks"
         ],
         "context": [
-          "communication",
-          "innovation"
+          "communication"
         ]
       },
       "coverImage": null,
@@ -315,7 +312,7 @@
       "scope": "published articles only"
     },
     "nodeCount": 3,
-    "edgeCount": 3,
+    "edgeCount": 2,
     "nodes": [
       {
         "id": "red-mundial-telegrafos-opticos",
@@ -340,7 +337,7 @@
       {
         "source": "asistente-calculo-motores-analiticos",
         "target": "observatorios-marte-red-cooperativa",
-        "score": 8.4007,
+        "score": 8.6884,
         "label": "scientific-navigation",
         "shared": {
           "domain": [
@@ -360,7 +357,7 @@
       {
         "source": "red-mundial-telegrafos-opticos",
         "target": "asistente-calculo-motores-analiticos",
-        "score": 5.3254,
+        "score": 4.3254,
         "label": "cooperative-networks",
         "shared": {
           "domain": [
@@ -370,35 +367,16 @@
             "cooperative-networks"
           ],
           "topic": [],
-          "context": [
-            "innovation"
-          ]
+          "context": []
         },
         "dominantType": "technology"
-      },
-      {
-        "source": "red-mundial-telegrafos-opticos",
-        "target": "observatorios-marte-red-cooperativa",
-        "score": 2,
-        "label": "innovation",
-        "shared": {
-          "domain": [
-            "technology"
-          ],
-          "technology": [],
-          "topic": [],
-          "context": [
-            "innovation"
-          ]
-        },
-        "dominantType": "context"
       }
     ],
     "relatedBySlug": {
       "red-mundial-telegrafos-opticos": [
         {
           "target": "asistente-calculo-motores-analiticos",
-          "score": 5.3254,
+          "score": 4.3254,
           "label": "cooperative-networks",
           "dominantType": "technology",
           "shared": {
@@ -409,32 +387,14 @@
               "cooperative-networks"
             ],
             "topic": [],
-            "context": [
-              "innovation"
-            ]
-          }
-        },
-        {
-          "target": "observatorios-marte-red-cooperativa",
-          "score": 2,
-          "label": "innovation",
-          "dominantType": "context",
-          "shared": {
-            "domain": [
-              "technology"
-            ],
-            "technology": [],
-            "topic": [],
-            "context": [
-              "innovation"
-            ]
+            "context": []
           }
         }
       ],
       "asistente-calculo-motores-analiticos": [
         {
           "target": "observatorios-marte-red-cooperativa",
-          "score": 8.4007,
+          "score": 8.6884,
           "label": "scientific-navigation",
           "dominantType": "topic",
           "shared": {
@@ -453,7 +413,7 @@
         },
         {
           "target": "red-mundial-telegrafos-opticos",
-          "score": 5.3254,
+          "score": 4.3254,
           "label": "cooperative-networks",
           "dominantType": "technology",
           "shared": {
@@ -464,16 +424,14 @@
               "cooperative-networks"
             ],
             "topic": [],
-            "context": [
-              "innovation"
-            ]
+            "context": []
           }
         }
       ],
       "observatorios-marte-red-cooperativa": [
         {
           "target": "asistente-calculo-motores-analiticos",
-          "score": 8.4007,
+          "score": 8.6884,
           "label": "scientific-navigation",
           "dominantType": "topic",
           "shared": {
@@ -487,22 +445,6 @@
             "context": [
               "innovation",
               "universities"
-            ]
-          }
-        },
-        {
-          "target": "red-mundial-telegrafos-opticos",
-          "score": 2,
-          "label": "innovation",
-          "dominantType": "context",
-          "shared": {
-            "domain": [
-              "technology"
-            ],
-            "technology": [],
-            "topic": [],
-            "context": [
-              "innovation"
             ]
           }
         }

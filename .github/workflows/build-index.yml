@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - graph-navigation
     paths:
       - 'articles/**/*.md'
       - 'assets/**'

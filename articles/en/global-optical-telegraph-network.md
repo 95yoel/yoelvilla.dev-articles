@@ -6,7 +6,7 @@ tags: [communication, optical-telegraph, infrastructure, technology, global-netw
 domain: [infrastructure, technology]
 technology: [optical-telegraph, cooperative-networks]
 topic: [communication-networks]
-context: [communication, innovation]
+context: [communication]
 ---
 
 # The global optical telegraph network reaches 50,000 towers and links continents in minutes

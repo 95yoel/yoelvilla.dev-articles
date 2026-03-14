@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generatedAt": "2026-03-14T03:31:53.359Z",
+  "version": 2,
+  "generatedAt": "2026-03-14T13:22:23.297Z",
   "articles": [
     {
       "slug": "red-mundial-telegrafos-opticos",
@@ -42,6 +42,56 @@
         "technology",
         "global-network"
       ],
+      "taxonomy": {
+        "es": {
+          "domain": [
+            "infraestructura",
+            "tecnologia"
+          ],
+          "technology": [
+            "telegrafo-optico"
+          ],
+          "topic": [
+            "redes-comunicacion"
+          ],
+          "context": [
+            "comunicacion",
+            "innovacion"
+          ]
+        },
+        "en": {
+          "domain": [
+            "infrastructure",
+            "technology"
+          ],
+          "technology": [
+            "optical-telegraph"
+          ],
+          "topic": [
+            "communication-networks"
+          ],
+          "context": [
+            "communication",
+            "innovation"
+          ]
+        }
+      },
+      "taxonomyCanonical": {
+        "domain": [
+          "infrastructure",
+          "technology"
+        ],
+        "technology": [
+          "optical-telegraph"
+        ],
+        "topic": [
+          "communication-networks"
+        ],
+        "context": [
+          "communication",
+          "innovation"
+        ]
+      },
       "coverImage": null,
       "published": true
     },
@@ -85,6 +135,53 @@
         "innovation",
         "universities"
       ],
+      "taxonomy": {
+        "es": {
+          "domain": [
+            "tecnologia"
+          ],
+          "technology": [
+            "motores-analiticos"
+          ],
+          "topic": [
+            "calculo-automatico"
+          ],
+          "context": [
+            "innovacion",
+            "universidades"
+          ]
+        },
+        "en": {
+          "domain": [
+            "technology"
+          ],
+          "technology": [
+            "analytic-engines"
+          ],
+          "topic": [
+            "automatic-calculation"
+          ],
+          "context": [
+            "innovation",
+            "universities"
+          ]
+        }
+      },
+      "taxonomyCanonical": {
+        "domain": [
+          "technology"
+        ],
+        "technology": [
+          "analytic-engines"
+        ],
+        "topic": [
+          "automatic-calculation"
+        ],
+        "context": [
+          "innovation",
+          "universities"
+        ]
+      },
       "coverImage": null,
       "published": true
     },
@@ -128,8 +225,261 @@
         "cartography",
         "science"
       ],
+      "taxonomy": {
+        "es": {
+          "domain": [
+            "ciencia",
+            "tecnologia"
+          ],
+          "technology": [
+            "telescopios"
+          ],
+          "topic": [
+            "cartografia-planetaria"
+          ],
+          "context": [
+            "universidades",
+            "innovacion"
+          ]
+        },
+        "en": {
+          "domain": [
+            "science",
+            "technology"
+          ],
+          "technology": [
+            "telescopes"
+          ],
+          "topic": [
+            "planetary-cartography"
+          ],
+          "context": [
+            "universities",
+            "innovation"
+          ]
+        }
+      },
+      "taxonomyCanonical": {
+        "domain": [
+          "science",
+          "technology"
+        ],
+        "technology": [
+          "telescopes"
+        ],
+        "topic": [
+          "planetary-cartography"
+        ],
+        "context": [
+          "universities",
+          "innovation"
+        ]
+      },
       "coverImage": null,
       "published": true
     }
-  ]
+  ],
+  "graph": {
+    "thresholds": {
+      "minScore": 2
+    },
+    "typeWeights": {
+      "domain": 1,
+      "technology": 2,
+      "topic": 3,
+      "context": 1
+    },
+    "maxRelated": 6,
+    "bonuses": {
+      "sharedTechnology": 0.75,
+      "sharedTopic": 1.25,
+      "multipleSpecificTags": 1
+    },
+    "rarity": {
+      "formula": "1 + ln((publishedCount + 1) / (tagFrequency + 1))",
+      "scope": "published articles only"
+    },
+    "nodeCount": 3,
+    "edgeCount": 3,
+    "nodes": [
+      {
+        "id": "red-mundial-telegrafos-opticos",
+        "slug": "red-mundial-telegrafos-opticos",
+        "date": "2026-03-13T00:00:00.000Z",
+        "published": true
+      },
+      {
+        "id": "asistente-calculo-motores-analiticos",
+        "slug": "asistente-calculo-motores-analiticos",
+        "date": "2026-03-12T00:00:00.000Z",
+        "published": true
+      },
+      {
+        "id": "observatorios-marte-red-cooperativa",
+        "slug": "observatorios-marte-red-cooperativa",
+        "date": "2026-03-10T00:00:00.000Z",
+        "published": true
+      }
+    ],
+    "edges": [
+      {
+        "source": "asistente-calculo-motores-analiticos",
+        "target": "observatorios-marte-red-cooperativa",
+        "score": 3.2877,
+        "label": "universities",
+        "shared": {
+          "domain": [
+            "technology"
+          ],
+          "technology": [],
+          "topic": [],
+          "context": [
+            "innovation",
+            "universities"
+          ]
+        },
+        "dominantType": "context"
+      },
+      {
+        "source": "red-mundial-telegrafos-opticos",
+        "target": "asistente-calculo-motores-analiticos",
+        "score": 2,
+        "label": "innovation",
+        "shared": {
+          "domain": [
+            "technology"
+          ],
+          "technology": [],
+          "topic": [],
+          "context": [
+            "innovation"
+          ]
+        },
+        "dominantType": "context"
+      },
+      {
+        "source": "red-mundial-telegrafos-opticos",
+        "target": "observatorios-marte-red-cooperativa",
+        "score": 2,
+        "label": "innovation",
+        "shared": {
+          "domain": [
+            "technology"
+          ],
+          "technology": [],
+          "topic": [],
+          "context": [
+            "innovation"
+          ]
+        },
+        "dominantType": "context"
+      }
+    ],
+    "relatedBySlug": {
+      "red-mundial-telegrafos-opticos": [
+        {
+          "target": "asistente-calculo-motores-analiticos",
+          "score": 2,
+          "label": "innovation",
+          "dominantType": "context",
+          "shared": {
+            "domain": [
+              "technology"
+            ],
+            "technology": [],
+            "topic": [],
+            "context": [
+              "innovation"
+            ]
+          }
+        },
+        {
+          "target": "observatorios-marte-red-cooperativa",
+          "score": 2,
+          "label": "innovation",
+          "dominantType": "context",
+          "shared": {
+            "domain": [
+              "technology"
+            ],
+            "technology": [],
+            "topic": [],
+            "context": [
+              "innovation"
+            ]
+          }
+        }
+      ],
+      "asistente-calculo-motores-analiticos": [
+        {
+          "target": "observatorios-marte-red-cooperativa",
+          "score": 3.2877,
+          "label": "universities",
+          "dominantType": "context",
+          "shared": {
+            "domain": [
+              "technology"
+            ],
+            "technology": [],
+            "topic": [],
+            "context": [
+              "innovation",
+              "universities"
+            ]
+          }
+        },
+        {
+          "target": "red-mundial-telegrafos-opticos",
+          "score": 2,
+          "label": "innovation",
+          "dominantType": "context",
+          "shared": {
+            "domain": [
+              "technology"
+            ],
+            "technology": [],
+            "topic": [],
+            "context": [
+              "innovation"
+            ]
+          }
+        }
+      ],
+      "observatorios-marte-red-cooperativa": [
+        {
+          "target": "asistente-calculo-motores-analiticos",
+          "score": 3.2877,
+          "label": "universities",
+          "dominantType": "context",
+          "shared": {
+            "domain": [
+              "technology"
+            ],
+            "technology": [],
+            "topic": [],
+            "context": [
+              "innovation",
+              "universities"
+            ]
+          }
+        },
+        {
+          "target": "red-mundial-telegrafos-opticos",
+          "score": 2,
+          "label": "innovation",
+          "dominantType": "context",
+          "shared": {
+            "domain": [
+              "technology"
+            ],
+            "technology": [],
+            "topic": [],
+            "context": [
+              "innovation"
+            ]
+          }
+        }
+      ]
+    }
+  }
 }

@@ -3,6 +3,10 @@ date: 2026-03-12
 slug: asistente-calculo-motores-analiticos
 summary: Universidades y talleres mecanicos presentan un asistente de calculo domestico basado en motores analiticos compactos y tarjetas perforadas.
 tags: [tecnologia, motores-analiticos, calculo-automatico, innovacion, universidades]
+domain: [tecnologia]
+technology: [motores-analiticos]
+topic: [calculo-automatico]
+context: [innovacion, universidades]
 ---
 
 # Universidades presentan el primer asistente de calculo basado en motores analiticos domesticos

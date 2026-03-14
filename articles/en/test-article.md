@@ -3,6 +3,10 @@ date: 2026-03-10
 slug: observatorios-marte-red-cooperativa
 summary: A cooperative network of civil and academic observatories has published the most precise atmospheric map of Mars yet, opening a new phase for navigation and planetary science.
 tags: [astronomy, mars, observatories, cartography, science]
+domain: [science, technology]
+technology: [telescopes]
+topic: [planetary-cartography]
+context: [universities, innovation]
 ---
 
 # Observatories publish the most precise atmospheric map of Mars through a cooperative telescope network

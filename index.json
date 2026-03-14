@@ -1,9 +1,95 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-11T01:30:14.030Z",
+  "generatedAt": "2026-03-14T01:24:53.034Z",
   "articles": [
     {
-      "slug": "test-article",
+      "slug": "red-mundial-telegrafos-opticos",
+      "sourceSlug": {
+        "es": "red-mundial-telegrafos-opticos",
+        "en": "global-optical-telegraph-network"
+      },
+      "languages": [
+        "en",
+        "es"
+      ],
+      "title": {
+        "es": "La red mundial de telegrafos opticos alcanza las 50.000 torres y conecta continentes en minutos",
+        "en": "The global optical telegraph network reaches 50,000 towers and links continents in minutes"
+      },
+      "summary": {
+        "es": "La red internacional de telegrafos opticos supera las 50.000 torres y acelera el intercambio de mensajes entre continentes.",
+        "en": "The international optical telegraph network has passed 50,000 towers and is accelerating message exchange across continents."
+      },
+      "date": "2026-03-13T00:00:00.000Z",
+      "tags": [
+        "comunicacion",
+        "telegrafo-optico",
+        "infraestructura",
+        "tecnologia",
+        "red-global"
+      ],
+      "tags_es": [
+        "comunicacion",
+        "telegrafo-optico",
+        "infraestructura",
+        "tecnologia",
+        "red-global"
+      ],
+      "tags_en": [
+        "communication",
+        "optical-telegraph",
+        "infrastructure",
+        "technology",
+        "global-network"
+      ],
+      "coverImage": null,
+      "published": true
+    },
+    {
+      "slug": "asistente-calculo-motores-analiticos",
+      "sourceSlug": {
+        "es": "asistente-calculo-motores-analiticos",
+        "en": "analytic-engines-calculation-assistant"
+      },
+      "languages": [
+        "en",
+        "es"
+      ],
+      "title": {
+        "es": "Universidades presentan el primer asistente de calculo basado en motores analiticos domesticos",
+        "en": "Universities unveil the first calculation assistant based on domestic analytic engines"
+      },
+      "summary": {
+        "es": "Universidades y talleres mecanicos presentan un asistente de calculo domestico basado en motores analiticos compactos y tarjetas perforadas.",
+        "en": "Universities and mechanical workshops introduce a domestic calculation assistant built on compact analytic engines and punched cards."
+      },
+      "date": "2026-03-12T00:00:00.000Z",
+      "tags": [
+        "tecnologia",
+        "motores-analiticos",
+        "calculo-automatico",
+        "innovacion",
+        "universidades"
+      ],
+      "tags_es": [
+        "tecnologia",
+        "motores-analiticos",
+        "calculo-automatico",
+        "innovacion",
+        "universidades"
+      ],
+      "tags_en": [
+        "technology",
+        "analytic-engines",
+        "automatic-calculation",
+        "innovation",
+        "universities"
+      ],
+      "coverImage": null,
+      "published": true
+    },
+    {
+      "slug": "observatorios-marte-red-cooperativa",
       "sourceSlug": {
         "es": "test.article",
         "en": "test-article"
@@ -13,15 +99,35 @@
         "es"
       ],
       "title": {
-        "es": "Artículo de Prueba",
-        "en": "Test Article"
+        "es": "Observatorios publican el mapa atmosferico mas preciso de Marte gracias a una red cooperativa de telescopios",
+        "en": "Observatories publish the most precise atmospheric map of Mars through a cooperative telescope network"
       },
       "summary": {
-        "es": "Esta es una descripción generada desde el summary.",
-        "en": "This is a description generated from the summary."
+        "es": "Una red de observatorios civiles y academicos publica el mapa atmosferico mas preciso de Marte y abre una nueva etapa para la navegacion y la ciencia planetaria.",
+        "en": "A cooperative network of civil and academic observatories has published the most precise atmospheric map of Mars yet, opening a new phase for navigation and planetary science."
       },
       "date": "2026-03-10T00:00:00.000Z",
-      "tags": [],
+      "tags": [
+        "astronomia",
+        "marte",
+        "observatorios",
+        "cartografia",
+        "ciencia"
+      ],
+      "tags_es": [
+        "astronomia",
+        "marte",
+        "observatorios",
+        "cartografia",
+        "ciencia"
+      ],
+      "tags_en": [
+        "astronomy",
+        "mars",
+        "observatories",
+        "cartography",
+        "science"
+      ],
       "coverImage": null,
       "published": true
     }

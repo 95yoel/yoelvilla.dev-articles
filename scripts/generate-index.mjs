@@ -167,6 +167,8 @@ function createEmptyArticle(slug) {
     summary: {},
     date: null,
     tags: [],
+    tags_es: [],
+    tags_en: [],
     coverImage: null,
     published: true
   };
@@ -224,6 +226,8 @@ for (const lang of LANGS) {
     }
 
     const tags = normalizeTags(meta.tags);
+    item[`tags_${lang}`] = tags;
+
     if (tags.length > 0 && item.tags.length === 0) {
       item.tags = tags;
     }
